@@ -187,7 +187,7 @@ RCT_EXPORT_METHOD(getTokens:(RCTPromiseResolveBlock)resolve
                            @"user": userInfo,
                            @"idToken": user.authentication.idToken,
                            @"serverAuthCode": RCTNullIfNil(user.serverAuthCode),
-                           @"scopes": user.grantedScopes,
+                           //@"scopes": user.grantedScopes,
                            };
   return params;
 }
